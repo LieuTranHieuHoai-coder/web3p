@@ -1,0 +1,264 @@
+﻿.web3p-item_gallery {
+    margin-top: 20px;
+    width: 84.73%;
+    display:inline-block;
+    margin-right: 10px;
+    padding-right: 5px;
+}
+.gallery_top {
+    padding: 0 0 15px;
+    display: inline-block;
+}
+.gallery_left {
+    float: left;
+    width: 270px;
+    margin-right: 20px;
+}
+
+.gallery_left .cover {
+    margin-bottom: 5px;
+}
+.gallery_left .cover img {
+    width: 270px;
+}
+.gallery_left .g_button {
+    background: #1e1e1e;
+    border: 1px solid #2a2a2a;
+    border-radius: 1px;
+    color: #ff9f08;
+    display: inline-block;
+    font-size: 12px;
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 100%;
+    outline: 0;
+    font-weight: 400;
+    transition: background-color .3s ease;
+}
+.gallery_right {
+    float: left;
+    width: 75.57%;
+}
+.gallery_right .info h1 {
+    margin: 0 0 15px;
+    font-size: 24px;
+    font-weight: 300;
+    color: #ff9f08;
+    line-height: 1em;
+}
+    .gallery_right .info ul {
+        margin: 0 0 10px;
+        padding: 0;
+    }
+    .gallery_right .info .i_text {
+        vertical-align: -webkit-baseline-middle;
+        margin: 0 5px 0 0;
+    }
+    .gallery_right .info ul li {
+        list-style-type: none;
+        display: inline-block;
+        margin: 0 5px 5px 0;
+    }
+    .gallery_right .info .tag_btn {
+        border: 1px solid #2a2a2a;
+        font-weight: 300;
+        border-radius: 0;
+        background: #1e1e1e;
+        padding: 4px;
+        vertical-align: top;
+        color: #ff9f08;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        position: relative;
+        display: inline-block;
+        font-size: 13px;
+        text-decoration: none;
+        transition: background-color .3s ease;
+    }
+        .gallery_right .info .tag_btn .t_badge {
+            font-family: Arial;
+            font-weight: 300;
+            background: #35332f;
+            padding: 2px 7px;
+            font-size: 12px;
+            color: #fff;
+            border-radius: 0;
+            vertical-align: text-top;
+        }
+    .gallery_right .info .g_buttons {
+        margin: 0;
+        font-size: 0;
+    }
+    .gallery_right .info .b_like {
+        margin: 0 0 5px;
+        position: relative;
+    }
+    .gallery_right .info .g_button {
+        background: #1e1e1e;
+        border: 1px solid #2a2a2a;
+        border-radius: 1px;
+        color: #ff9f08;
+        display: inline-block;
+        font-size: 12px;
+        padding: 10px;
+        margin: 0;
+        text-align: center;
+        text-decoration: none;
+        text-transform: uppercase;
+        width: 100%;
+        outline: 0;
+        font-weight: 400;
+        transition: background-color .3s ease;
+    }
+    .gallery_right .info .b_like .gb {
+        position: absolute;
+        width: 100%;
+        height: 4px;
+        bottom: 0;
+        left: 0;
+        background: #15a500;
+    }
+    .gallery_right .info .b_dlike {
+        border-left: 0;
+        position: relative;
+    }
+    .gallery_right .info .b_dlike .rb {
+        position: absolute;
+        width: 100%;
+        height: 4px;
+        bottom: 0;
+        left: 0;
+        background: red;
+    }
+.gallery_bottom {
+    padding: 20px 0 13px;
+    font-size: 0;
+}
+.gallery_thumb {
+    float: none;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 9px 9px 0;
+    padding: 0;
+    width: 18.41%;
+}
+.gallery_bottom .view_group {
+    text-align: center;
+    margin-bottom: 7px;
+    margin-top: 1px;
+}
+.gallery_bottom .button {
+    background: #1e1e1e;
+    border: 1px solid #2a2a2a;
+    border-radius: 1px;
+    color: #ff9f08;
+    display: inline-block;
+    font-size: 12px;
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 110px;
+    margin-right: 5px;
+    outline: 0;
+    font-weight: 400;
+    transition: background-color .3s ease;
+}
+.gallery_bottom .button {
+    background: #1e1e1e;
+    border: 1px solid #2a2a2a;
+    border-radius: 1px;
+    color: #ff9f08;
+    display: inline-block;
+    font-size: 12px;
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 110px;
+    margin-right: 5px;
+    outline: 0;
+    font-weight: 400;
+    transition: background-color .3s ease;
+}
+.related_galleries {
+    margin: 20px 0 15px;
+}
+    .related_galleries .rlt_galleries {
+        margin: 0 0 20px;
+        font-size: 24px;
+        font-weight: 300;
+        color: #ff9f08;
+        line-height: 1em;
+    }
+    .related_galleries .thumb:last-child {
+        margin-right: 0;
+    }
+
+    .related_galleries .thumb {
+        position: relative;
+        display: inline-block;
+        float: none;
+        height: auto;
+        margin: 0 9px 9px 0;
+        margin-bottom: 2.525em !important;
+        vertical-align: top;
+        width: 19.41%;
+        max-width: 250px;
+        border: none;
+        border-radius: 0;
+        transition: all .3s ease;
+    }
+        .related_galleries .thumb .g_type .g_cat {
+            margin: 0;
+            padding: 0;
+        }
+        .related_galleries .thumb .g_type {
+            background: #1e1e1e;
+            border-radius: 5px 5px 0 0;
+            transition: background-color .3s ease;
+        }
+            .related_galleries .thumb .g_type .t_cat {
+                display: block;
+                color: #ff9f08;
+                font-size: 14px;
+                text-decoration: none;
+                padding: 5px;
+            }
+        .related_galleries .thumb .inner_thumb {
+            position: relative;
+            overflow: hidden;
+        }
+            .related_galleries .thumb .inner_thumb img {
+                width: 100%;
+                height: auto;
+            }
+        .related_galleries .thumb .caption {
+            background: #1e1e1e;
+            padding: 3px;
+            position: absolute;
+            overflow: hidden;
+            z-index: 0;
+            max-height: 26px;
+            width: 100%;
+            display: block;
+            text-align: center;
+            text-decoration: none;
+            left: 0;
+            right: 0;
+            top: 100%;
+        }
+            .related_galleries .thumb .caption .g_title {
+                margin: 0;
+                padding: 0;
+                font-size: 13px;
+                line-height: 19px;
+            }
+            .related_galleries .thumb .caption a {
+                color: #ff9f08;
+            }
