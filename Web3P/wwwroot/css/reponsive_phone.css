@@ -203,6 +203,58 @@
                 background: #db8f1e;
                 color: #fff;
             }
+    .gallery_thumb {
+        width: 32.2%;
+        margin: 0 5px 5px 0;
+    }
+
+    .web3p-item_gallery {
+        width: 100%;
+    }
+
+    .gallery_thumb img {
+        width: 100%;
+        transition: all .3s;
+    }
+
+    .gallery_left {
+        text-align: center;
+        width: 40%;
+    }
+
+        .gallery_left .cover img {
+            width: 90%;
+        }
+
+    .gallery_right {
+        /* float: left; */
+        margin: auto;
+        display: contents;
+        width: 95%;
+    }
+
+    .gallery_bottom {
+        display: block;
+        width: 99%;
+        margin: auto;
+        padding: 20px 0 13px;
+        font-size: 0;
+    }
+
+    .related_galleries .thumb {
+        position: relative;
+        display: inline-block;
+        float: none;
+        height: auto;
+        margin: 9px;
+        margin-bottom: 2.525em !important;
+        vertical-align: top;
+        width: 47%;
+        max-width: 250px;
+        border: none;
+        border-radius: 0;
+        transition: all .3s ease;
+    }
 }
 
 /* portrait orientation */
