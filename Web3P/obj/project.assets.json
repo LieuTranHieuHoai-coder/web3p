@@ -9027,11 +9027,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Code\\WebProject\\Web3P\\Web3P\\Web3P.csproj",
+      "projectUniqueName": "D:\\Code\\git\\web3p\\Web3P\\Web3P.csproj",
       "projectName": "Web3P",
-      "projectPath": "D:\\Code\\WebProject\\Web3P\\Web3P\\Web3P.csproj",
+      "projectPath": "D:\\Code\\git\\web3p\\Web3P\\Web3P.csproj",
       "packagesPath": "C:\\Users\\hieuhoai\\.nuget\\packages\\",
-      "outputPath": "D:\\Code\\WebProject\\Web3P\\Web3P\\obj\\",
+      "outputPath": "D:\\Code\\git\\web3p\\Web3P\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Soft\\VisualStudio2019\\SDK\\NuGetPackages",

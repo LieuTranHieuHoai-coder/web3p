@@ -209,7 +209,7 @@
     }
 
     .web3p-item_gallery {
-        width: 100%;
+        width: 100% !important;
     }
 
     .gallery_thumb img {
