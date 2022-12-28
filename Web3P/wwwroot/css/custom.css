@@ -140,6 +140,116 @@ footer{
         border-radius: 0;
         transition: all .3s ease;
     }
+    /*Tags Page*/
+    .tags_view {
+        display: block;
+        width: 85.73%;
+        vertical-align: top;
+        margin: 20px auto 0;
+    }
+
+        .tags_view .tag_info {
+            margin-top: 10px;
+            padding: 10px 0 15px;
+            font-size: 24px;
+            line-height: 24px;
+            text-align: center;
+            color: #fff;
+        }
+
+        .tags_view .a_z ul li {
+            list-style-type: none;
+            display: inline-block;
+        }
+
+        .tags_view .a_z {
+            margin: 0 0 25px;
+            text-align: center;
+        }
+
+        .tags_view .sub_links {
+            padding: 0 0 25px;
+            text-align: center;
+        }
+
+            .tags_view .sub_links h2 {
+                margin: 0;
+                padding: 0;
+                display: inline-block;
+                font-size: unset;
+            }
+
+            .tags_view .sub_links a {
+                font-size: 20px;
+                line-height: 20px;
+                color: #ff9f08;
+                padding: 0 20px;
+            }
+
+        .tags_view .a_z .btn_az {
+            border: 1px solid #2a2a2a;
+            font-size: 14px;
+            font-weight: 300;
+            border-radius: 0;
+            background: #1e1e1e;
+            vertical-align: top;
+            color: #ff9f08;
+            overflow: hidden;
+            width: 30px;
+            height: 30px;
+            display: inline-block;
+            line-height: 30px;
+            text-decoration: none;
+            margin-right: 4px;
+            transition: all .3s ease;
+        }
+
+    .list_tags {
+        margin: 0 auto 25px 0;
+    }
+
+    .tags_view .tag_item {
+        text-align: center;
+        display: inline-block;
+    }
+
+    .tags_view .tag_btn {
+        border: 1px solid #2a2a2a;
+        font-size: 14px;
+        font-weight: 400;
+        border-radius: 0;
+        background: #1e1e1e;
+        padding: 4px 4px 4px 7px;
+        vertical-align: top;
+        color: #ff9f08;
+        overflow: hidden;
+        max-width: 345px;
+        text-overflow: ellipsis;
+        position: relative;
+        margin: 0 10px 10px 0;
+        transition: all .3s ease;
+    }
+
+    .tags_view .list_tag {
+        margin: 0;
+        padding: 0;
+        display: inline-block;
+        font-size: unset;
+        line-height: unset;
+        font-weight: 300;
+        color: #ffffff;
+    }
+
+    .tags_view .badge {
+        font-family: Arial;
+        font-weight: 300;
+        background: #35332f;
+        padding: 3px 7px;
+        font-size: 12px;
+        color: #fff;
+        border-radius: 0;
+        vertical-align: middle;
+    }
 }
 
 /* landscape orientation */
@@ -336,6 +446,116 @@ footer{
                 background: #db8f1e;
                 color: #fff;
             }
+    /*Tags Page*/
+    .tags_view {
+        display: block;
+        width: 85.73%;
+        vertical-align: top;
+        margin: 20px auto 0;
+    }
+
+        .tags_view .tag_info {
+            margin-top: 10px;
+            padding: 10px 0 15px;
+            font-size: 24px;
+            line-height: 24px;
+            text-align: center;
+            color: #fff;
+        }
+
+        .tags_view .a_z ul li {
+            list-style-type: none;
+            display: inline-block;
+        }
+
+        .tags_view .a_z {
+            margin: 0 0 25px;
+            text-align: center;
+        }
+
+        .tags_view .sub_links {
+            padding: 0 0 25px;
+            text-align: center;
+        }
+
+            .tags_view .sub_links h2 {
+                margin: 0;
+                padding: 0;
+                display: inline-block;
+                font-size: unset;
+            }
+
+            .tags_view .sub_links a {
+                font-size: 20px;
+                line-height: 20px;
+                color: #ff9f08;
+                padding: 0 20px;
+            }
+
+        .tags_view .a_z .btn_az {
+            border: 1px solid #2a2a2a;
+            font-size: 14px;
+            font-weight: 300;
+            border-radius: 0;
+            background: #1e1e1e;
+            vertical-align: top;
+            color: #ff9f08;
+            overflow: hidden;
+            width: 30px;
+            height: 30px;
+            display: inline-block;
+            line-height: 30px;
+            text-decoration: none;
+            margin-right: 4px;
+            transition: all .3s ease;
+        }
+
+    .list_tags {
+        margin: 0 auto 25px 0;
+    }
+
+    .tags_view .tag_item {
+        text-align: center;
+        display: inline-block;
+    }
+
+    .tags_view .tag_btn {
+        border: 1px solid #2a2a2a;
+        font-size: 14px;
+        font-weight: 400;
+        border-radius: 0;
+        background: #1e1e1e;
+        padding: 4px 4px 4px 7px;
+        vertical-align: top;
+        color: #ff9f08;
+        overflow: hidden;
+        max-width: 345px;
+        text-overflow: ellipsis;
+        position: relative;
+        margin: 0 10px 10px 0;
+        transition: all .3s ease;
+    }
+
+    .tags_view .list_tag {
+        margin: 0;
+        padding: 0;
+        display: inline-block;
+        font-size: unset;
+        line-height: unset;
+        font-weight: 300;
+        color: #ffffff;
+    }
+
+    .tags_view .badge {
+        font-family: Arial;
+        font-weight: 300;
+        background: #35332f;
+        padding: 3px 7px;
+        font-size: 12px;
+        color: #fff;
+        border-radius: 0;
+        vertical-align: middle;
+    }
 }
 
 /* landscape orientation */
@@ -533,6 +753,116 @@ footer{
                 background: #db8f1e;
                 color: #fff;
             }
+    /*Tags Page*/
+    .tags_view {
+        display: block;
+        width: 85.73%;
+        vertical-align: top;
+        margin: 20px auto 0;
+    }
+
+        .tags_view .tag_info {
+            margin-top: 10px;
+            padding: 10px 0 15px;
+            font-size: 24px;
+            line-height: 24px;
+            text-align: center;
+            color: #fff;
+        }
+
+        .tags_view .a_z ul li {
+            list-style-type: none;
+            display: inline-block;
+        }
+
+        .tags_view .a_z {
+            margin: 0 0 25px;
+            text-align: center;
+        }
+
+        .tags_view .sub_links {
+            padding: 0 0 25px;
+            text-align: center;
+        }
+
+            .tags_view .sub_links h2 {
+                margin: 0;
+                padding: 0;
+                display: inline-block;
+                font-size: unset;
+            }
+
+            .tags_view .sub_links a {
+                font-size: 20px;
+                line-height: 20px;
+                color: #ff9f08;
+                padding: 0 20px;
+            }
+
+        .tags_view .a_z .btn_az {
+            border: 1px solid #2a2a2a;
+            font-size: 14px;
+            font-weight: 300;
+            border-radius: 0;
+            background: #1e1e1e;
+            vertical-align: top;
+            color: #ff9f08;
+            overflow: hidden;
+            width: 30px;
+            height: 30px;
+            display: inline-block;
+            line-height: 30px;
+            text-decoration: none;
+            margin-right: 4px;
+            transition: all .3s ease;
+        }
+
+    .list_tags {
+        margin: 0 auto 25px 0;
+    }
+
+    .tags_view .tag_item {
+        text-align: center;
+        display: inline-block;
+    }
+
+    .tags_view .tag_btn {
+        border: 1px solid #2a2a2a;
+        font-size: 14px;
+        font-weight: 400;
+        border-radius: 0;
+        background: #1e1e1e;
+        padding: 4px 4px 4px 7px;
+        vertical-align: top;
+        color: #ff9f08;
+        overflow: hidden;
+        max-width: 345px;
+        text-overflow: ellipsis;
+        position: relative;
+        margin: 0 10px 10px 0;
+        transition: all .3s ease;
+    }
+
+    .tags_view .list_tag {
+        margin: 0;
+        padding: 0;
+        display: inline-block;
+        font-size: unset;
+        line-height: unset;
+        font-weight: 300;
+        color: #ffffff;
+    }
+
+    .tags_view .badge {
+        font-family: Arial;
+        font-weight: 300;
+        background: #35332f;
+        padding: 3px 7px;
+        font-size: 12px;
+        color: #fff;
+        border-radius: 0;
+        vertical-align: middle;
+    }
 }
 
 @media only screen and (min-width : 900px) and (max-width : 1000px) and (orientation : landscape) {
@@ -730,4 +1060,114 @@ footer{
                 background: #db8f1e;
                 color: #fff;
             }
+    /*Tags Page*/
+    .tags_view {
+        display: block;
+        width: 85.73%;
+        vertical-align: top;
+        margin: 20px auto 0;
+    }
+
+        .tags_view .tag_info {
+            margin-top: 10px;
+            padding: 10px 0 15px;
+            font-size: 24px;
+            line-height: 24px;
+            text-align: center;
+            color: #fff;
+        }
+
+        .tags_view .a_z ul li {
+            list-style-type: none;
+            display: inline-block;
+        }
+
+        .tags_view .a_z {
+            margin: 0 0 25px;
+            text-align: center;
+        }
+
+        .tags_view .sub_links {
+            padding: 0 0 25px;
+            text-align: center;
+        }
+
+            .tags_view .sub_links h2 {
+                margin: 0;
+                padding: 0;
+                display: inline-block;
+                font-size: unset;
+            }
+
+            .tags_view .sub_links a {
+                font-size: 20px;
+                line-height: 20px;
+                color: #ff9f08;
+                padding: 0 20px;
+            }
+
+        .tags_view .a_z .btn_az {
+            border: 1px solid #2a2a2a;
+            font-size: 14px;
+            font-weight: 300;
+            border-radius: 0;
+            background: #1e1e1e;
+            vertical-align: top;
+            color: #ff9f08;
+            overflow: hidden;
+            width: 30px;
+            height: 30px;
+            display: inline-block;
+            line-height: 30px;
+            text-decoration: none;
+            margin-right: 4px;
+            transition: all .3s ease;
+        }
+
+    .list_tags {
+        margin: 0 auto 25px 0;
+    }
+
+    .tags_view .tag_item {
+        text-align: center;
+        display: inline-block;
+    }
+
+    .tags_view .tag_btn {
+        border: 1px solid #2a2a2a;
+        font-size: 14px;
+        font-weight: 400;
+        border-radius: 0;
+        background: #1e1e1e;
+        padding: 4px 4px 4px 7px;
+        vertical-align: top;
+        color: #ff9f08;
+        overflow: hidden;
+        max-width: 345px;
+        text-overflow: ellipsis;
+        position: relative;
+        margin: 0 10px 10px 0;
+        transition: all .3s ease;
+    }
+
+    .tags_view .list_tag {
+        margin: 0;
+        padding: 0;
+        display: inline-block;
+        font-size: unset;
+        line-height: unset;
+        font-weight: 300;
+        color: #ffffff;
+    }
+
+    .tags_view .badge {
+        font-family: Arial;
+        font-weight: 300;
+        background: #35332f;
+        padding: 3px 7px;
+        font-size: 12px;
+        color: #fff;
+        border-radius: 0;
+        vertical-align: middle;
+    }
 }
